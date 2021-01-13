@@ -1,0 +1,1231 @@
+body {
+  margin: auto 0;
+  font-family: 'Roboto', sans-serif;
+  width: 100%;
+}
+
+#menu {
+  width: 80%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+}
+
+#menu-line {
+  width: 100%;
+  height: 2px;
+  background-color: #88337E;
+}
+
+.logo, #logo-footer {
+  width: 120px;
+  height: 40px;
+  background-image: url("img/vegapanik_logo_outline.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  grid-column-start: 1;
+  margin-top:5px;
+  margin-bottom:5px;
+
+  
+}
+
+#logo-footer{
+  margin: -20px 0;
+}
+
+#hamburger-menu {
+  display: none;
+}
+
+#logo-footer {
+  width: 160px;
+  height: 55px;
+ 
+}
+
+.main-nav {
+  display: flex;
+  list-style: none;
+  margin: 0 0  0 auto;
+}
+
+.main-nav a {
+  font-size: 1em;
+}
+
+#main-nav-footer a, #main-nav-footer2 a {
+  font-size: 0.8em;
+}
+
+ul {
+  padding: 0;
+}
+
+ul.recepies {
+  padding: 0 ;
+  margin-top: 0;
+  list-style: none;
+}
+
+ul.recepies>li {
+  padding: 5px;
+  font-weight: lighter;
+}
+
+ul.recepies>li:hover {
+  font-weight: lighter;
+}
+
+li {
+  padding: 20px;
+}
+
+li.footer {
+  padding: 5px;
+}
+
+li:hover {
+  font-weight: bolder;
+}
+
+a {
+  color: #88337E;
+  text-decoration: none;
+}
+
+
+
+#container-main {
+  background-image: url("img/vega_main_bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#sticky{
+  position:fixed;
+  width:30px;
+  height:30px;
+  background-image:  url("img/back-to-the-top.png");
+  background-size: 90%;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin:60px 4% 60px 96%;
+ 
+}
+#textbox-main {
+  width: 80%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+h1 {
+  font-family: 'Playfair Display', serif;
+  color: white;
+  font-size: 4em;
+  margin:60px 0 0 0;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.8em;
+  margin-top: 20px;
+}
+
+h3 {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  font-weight: lighter;
+  grid-column-start: 1;
+  margin: 20px 0;
+  grid-column-end: 3;
+  line-height: 1.8;
+  font-size: 1.1em;
+}
+
+h3.purple {
+  margin-left: 0;
+}
+
+h3.recepies {
+  padding: 20px;
+  text-align: center;
+  font-size: 1.4em;
+  background-color: #70911F;
+  color: white;
+  
+margin-top: 0;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.9em;
+  font-weight: lighter;
+}
+
+p.purple {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 3;
+  margin: 20px 0;
+}
+p#follow-us{
+  margin:-20px 0 0 10px;
+}
+p.secondary {
+  margin-top: 0;
+}
+b{
+  font-weight: 500;
+}
+p.vega, h3.vega {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  margin: 20px 20% 10px 0;
+  text-align: left;
+}
+p.menu{
+  margin-top:0;
+  font-size: 0.8rem;
+}
+p.bigger{
+  font-size: 1rem;
+}
+p.vegan, h3.vegan {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  margin: 20px 0px 10px 20%;
+}
+
+p.vega, p.vegan {
+  grid-row-start: 3;
+}
+
+p.copyright {
+  font-size: 0.6em;
+  grid-row-start: 5;
+  margin-top: 60px;
+ 
+}
+
+.white {
+  color: white;
+}
+
+h3.vegan, h3.vegan {
+  grid-row-start: 2;
+}
+
+h2.about, a#about, #button-about {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  text-align: center;
+}
+
+h2.about {
+  font-weight: lighter;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-size: 2.2em;
+}
+
+.purple {
+  color: #88337E;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-weight: normal;
+  line-height: 1.6;
+}
+
+h2.purple {
+  text-align: center;
+  margin: 60px auto 40px;
+  font-size: 2.2em;
+}
+
+h3.about {
+  font-weight: lighter;
+  font-size: 1.1em;
+  grid-column-start: 2;
+}
+h3.title{
+  width:80%;
+  margin:30px auto 20px;
+  text-align: center;
+}
+h3.purple.large{
+  font-size: 150%;
+  margin-top: 0;
+}
+
+.button-purple {
+  color: white;
+  margin: auto;
+  font-size: 1.2em;
+  font-weight: 500;
+}
+
+#button-main, #button-recepies {
+  background-color: #88337E;
+  border: none;
+  border-radius: 15px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  width: 130px;
+  height: 50px;
+  font-size: 16px;
+  grid-column-start: 3;
+  grid-row-start: 3;
+  margin-top: 10px;
+  margin-bottom: 60px;
+  margin-left: -70px;
+}
+
+#about {
+  background-color: #E56859;
+  color: white;
+  width: 100%;
+  text-align: center;
+}
+
+#textbox-about, #textbox-recepies {
+  display: grid;
+  width: 80%;
+  margin: auto;
+  grid-template-columns: 25% 50% 25%;
+}
+
+#button-about {
+  background-color: white;
+  border: none;
+  border-radius: 15px;
+  color: #396323;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  width: 130px;
+  height: 50px;
+  font-size: 16px;
+  margin: 10px auto 60px;
+  grid-column-start: 2;
+}
+
+.button-white {
+  color: #E56859;
+  margin: auto;
+  font-size: 1.2em;
+  font-weight: 500;
+}
+
+#vega_or_vegan {
+  width: 100%;
+  background-color: white;
+  text-align: center;
+}
+
+#description {
+  width: 80%;
+  margin: 30px auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: left;
+}
+
+#vega-box {
+  grid-column-start: 1;
+}
+
+#vegan-box {
+  grid-column-start: 2;
+}
+
+#pic_vega {
+  background-image: url("img/vega_vegetarianus.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  align-items: center;
+  justify-content: center;
+  height: 260px;
+  margin: 10px 20% 10px 0;
+}
+
+#pic_vegan {
+  background-image: url("img/vega_vegan.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  height: 260px;
+  margin: 10px 0 10px 20%;
+}
+
+#to_do {
+  width: 100%;
+  margin: 30px auto 0 auto;
+  background-color: #88337E;
+}
+
+#to_do_inside {
+  width: 80%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  text-align: center;
+}
+
+#ingredients {
+  grid-column-start: 1;
+}
+
+#order {
+  grid-column-start: 2;
+}
+
+#advice {
+  grid-column-start: 3;
+}
+
+#mistakes {
+  grid-column-start: 4;
+}
+
+#ingredients, #order, #advice, #mistakes {
+  margin: 30px auto;
+  padding: 30px 20px;
+}
+
+#icon1, #icon2, #icon3, #icon4 {
+  background-image: url("img/alapanyagok_icon.png");
+  background-size: contain;
+  width: 60px;
+  height: 60px;
+  background-repeat: no-repeat;
+  margin: auto;
+}
+
+#icon2 {
+  background-image: url("img/sorrend_icon.png");
+}
+
+#icon3 {
+  background-image: url("img/tanacsok_icon.png");
+}
+
+#icon4 {
+  background-image: url("img/tevedesek_icon.png");
+}
+
+#recepies {
+  background-image: url("img/vega_receptek_bg.jpg");
+  background-size: cover;
+  width: 100%;
+  background-repeat: no-repeat;
+  text-align: center;
+  
+}
+
+#button-recepies {
+  margin: 10px auto 60px;
+  grid-column-start: 2;
+}
+
+footer {
+  background-color: white;
+  border-top:30px solid;
+  border-color:#E56859;
+  
+}
+
+#textbox-footer {
+  width: 80%;
+  margin: auto;
+  text-align: left;
+  display: grid;
+  grid-template-columns:30% 40% 30%;
+  padding-top: 30px;
+}
+
+#main-nav-footer {
+  list-style: none;
+  margin: 0;
+  grid-column-start: 1;
+  grid-row-start: 1;
+}
+
+#main-nav-footer2 {
+  list-style: none;
+  margin:70px 0;
+  grid-column-start: 3;
+  grid-row-start: 1;
+}
+
+#menu-footer {
+margin-right: 10px;
+  margin-top: 50px;
+}
+#second-fourth{
+  text-align: left;
+  padding-left:70px;
+}
+#first-fourth {
+  text-align: right;
+  padding-right: 20%;
+}
+ 
+
+#fourth-fourth {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 50px;
+}
+
+img {
+  width: 100%;
+ 
+  
+}
+
+#insta-pic1, #insta-pic2, #insta-pic3, #insta-pic4, #insta-pic5, #insta-pic6 {
+  padding: 3px;
+}
+
+#insta-pic1 {
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+#insta-pic2 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+#insta-pic3 {
+  grid-column-start: 3;
+  grid-column-end: 4;
+}
+
+#insta-pic4 {
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+#insta-pic5 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+#insta-pic6 {
+  grid-column-start: 3;
+  grid-column-end: 4;
+}
+.social{
+  width:100%;
+  height:auto;
+  padding:10px;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+a.footer{
+  grid-column-start: 1;
+}
+#fb, #insta {
+  width: 25px;
+  height: 25px;
+  background-size: 80%;
+  background-repeat: no-repeat;
+
+}
+
+#fb {
+  background-image: url("img/facebook_icon.png");
+  margin: -10px 0 30px 10%;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  
+}
+
+#insta {
+  background-image: url("img/insta_icon.png");
+  margin:-10px 0 30px -50%;
+  grid-column-start: 2;
+  grid-row-end: 3;
+  
+}
+
+.secondary-mainbox {
+  width: 80%;
+  margin:60px auto;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.line{
+  width:80%;
+  height:1.8px;
+  border-radius:1px;
+  
+  margin:10px 0 10px 0;
+  background-color: rgba(98, 34, 85, 0.8);
+ 
+}
+.small-textbox1 {
+  padding: 20px;
+  text-align: left;
+  grid-column-start: 2;
+  
+}
+
+.small-picbox1 {
+  background-image: url("img/ingredients.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:500px;
+  grid-column-start: 1;
+  
+ 
+}
+
+.small-picbox1.order2 {
+  background-image: url("img/advices.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:500px;
+  grid-column-start: 1;
+ 
+}
+
+.textbox {
+  width: 100%;
+  padding: 30px 0;
+  text-align: center;
+  margin-top: 0;
+}
+
+.green {
+  background-color: rgba(43, 95, 20, 0.8);
+}
+
+.small-textbox2 {
+  padding: 20px 20px 20px 0;
+  text-align: left;
+  grid-column-start: 1;
+  text-align: left;
+  grid-row-start: 2;
+  
+}
+.small-picbox2 {
+  background-image: url("img/cooking_order.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:500px;
+  background-position: center;
+  grid-column-start: 2;
+  grid-row-start: 2;
+  
+}
+
+.small-picbox4 {
+  background-image: url("img/do-not-do.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:500px;
+  background-position: center;
+  grid-column-start: 2;
+  grid-row-start: 2;
+  
+}
+
+.textbox-purple {
+  background-color: rgba(98, 34, 85, 0.8);
+  padding: 20px;
+
+}
+
+.color2 {
+  background-color: #788833;
+}
+
+.textbox-pink {
+  background-color: rgba(229, 104, 89, 0.6);
+  padding: 20px;
+}
+
+.small-picbox1.about {
+  background-image: url("img/about4.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height:500px;
+  grid-column-start: 1;
+  margin-top: 25px;
+}
+
+.small-picbox2.about {
+  background-image: url("img/about7.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height:500px;
+  grid-column-start: 2;
+  margin-top: 60px;
+}
+.small-textbox1.recepies, .small-textbox2.recepies{
+  padding-top:0;
+}
+@media only screen and (max-width: 1445px) {
+  h1 {
+    font-size: 3em;
+  }
+  #sticky{
+   
+    margin:60px 5% 60px 95%;
+   
+  }
+  .button-purple, .button-white, h3, h3.about .main-nav a {
+    font-size: 1.1em;
+  }
+
+  #button-main {
+    margin-top: 0;
+    margin-left: -70px;
+  }
+
+  #button-about, #button-main, #button-recepies {
+    width: 110px;
+    height: 40px;
+    border-radius: 13px;
+  }
+
+  .secondary-mainbox {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  p.copyright{
+    margin-top:30px;
+  }
+  p#follow-us{
+    margin:-50px 0 0 10px;
+  }
+  h1 {
+    font-size: 2.2em;
+  }
+
+  .button-purple, .button-white, .main-nav a {
+    font-size: 1em;
+  }
+
+  p {
+    font-size: 0.8em;
+  }
+
+  #button-main, #button-recepies, #button-about {
+    width: 110px;
+    height: 40px;
+    border-radius: 13px;
+  }
+  #fb{
+    margin-top: -70px;
+  }
+  #insta{
+  margin-top: -70px;
+ }
+}
+
+@media only screen and (max-width: 950px) {
+
+  #fb{
+    margin-top: -100px;
+  }
+  #insta{
+  margin-top: -100px;
+ }
+  p#follow-us{
+    margin:-60px 0 0 10px;
+  }
+  #menu {
+    width: 90%;
+    margin-left: 5%;
+    display: grid;
+  }
+  
+  #textbox-main {
+    width: 90%;
+    margin: auto;
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  #button-main {
+    grid-column-start: 1;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #textbox-about, #textbox-recepies {
+    grid-template-columns: 1fr;
+  }
+
+  #pic_vega, #pic_vegan {
+    height: 160px;
+  }
+
+  #to_do_inside {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  #icon1, #icon2, #icon3, #icon4 {
+    width: 40px;
+    height: 40px;
+  }
+
+  #ingredients {
+    grid-column-start: 1;
+    padding: 30px 0;
+  }
+
+  #order {
+    grid-column-start: 2;
+    padding: 30px 20px;
+  }
+
+  #advice {
+    grid-column-start: 1;
+    padding: 30px 20px;
+  }
+
+  #mistakes {
+    grid-column-start: 2;
+    padding: 30px 20px;
+  }
+
+  .secondary-mainbox {
+    width: 80%;
+    grid-template-columns: 1fr;
+    margin: auto;
+    padding: 10px;
+  }
+
+  .textbox-purple {
+    margin-top: 0;
+  }
+
+  .small-textbox1 {
+    grid-column-start: 1;
+    grid-row-start: 2;
+    margin: auto;
+    padding-left:20px 0;
+  }
+
+  .small-picbox1 {
+    height: 350px;
+    grid-column-start: 1;
+    grid-row-start: 1;
+    
+    
+  }
+
+  .small-textbox2 {
+    grid-row-start: 4;
+    margin: auto;
+    padding: 20px 0;
+  }
+
+  .small-picbox2, .small-picbox2.about, .small-picbox4 {
+    height: 350px;
+    grid-column-start: 1;
+    grid-row-start: 3;
+    margin: 0;
+    background-position: center;
+    
+  }
+
+  .small-textbox1.order2 {
+    grid-column-start: 1;
+    grid-row-start: 2;
+    margin: 0 auto 20px;
+    padding:20px 0;
+    
+  }
+
+  .small-picbox1.order2 {
+    grid-column-start: 1;
+    grid-row-start: 1;
+    margin: 0;
+    height: 350px;
+    background-position: center;
+  }
+
+  .small-textbox2.order2 {
+    grid-row-start: 4;
+    margin: 0 auto 20px;
+    padding:20px 0;
+  }
+
+  .small-picbox2.order2 {
+    height: 350px;
+    grid-column-start: 1;
+    grid-row-start: 3;
+    margin: 0;
+  }
+
+  p.purple.secondary {
+    margin-left: 0;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #sticky{
+   
+    margin:60px 6% 60px 94%;
+   
+  }
+  #fb{
+    margin-top: 20px;
+  }
+  #insta{
+  margin-top: 20px;
+ }
+ p#follow-us{
+  margin:0 0 0 10px;
+}
+  p.copyright {
+    margin-top: 20px;
+}
+#menu-footer {
+  margin-right: 10px;
+  margin-top: 40px;
+}
+  #menu {
+    grid-template-columns: 1fr;
+  }
+
+  .logo {
+    width: 90px;
+    height: 30px;
+  }
+  #logo-footer{
+    margin-left:-10px;
+    margin-top:20px;
+  }
+.push{
+  margin-left:5%;
+}
+  #hamburger-menu {
+    width: 30px;
+    height: 30px;
+    display: block;
+    background-color: white;
+    grid-row-start: 1;
+    grid-column-start: 2;
+    margin: 10px 0 0 -30px;
+  }
+
+  .hamburger-line {
+    width: 22px;
+    height: 3px;
+    border-radius: 1px;
+    margin: 3px auto;
+    background-color: #88337E;
+  }
+
+  #hamburgermenu-nav {
+    text-align: center;
+  }
+
+  .spot {
+    width: 5px;
+    height: 5px;
+    border-radius: 5px;
+    background-color: #88337E;
+    margin: 10px auto;
+  }
+
+  .main-nav {
+    display: none;
+  }
+
+  h1 {
+    font-size: 2em;
+  }
+
+  h2 {
+    font-size: 1.6em;
+  }
+
+  p {
+    font-size: 0.9em;
+  }
+
+
+  #textbox-footer {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .button-purple, .button-white {
+    font-size: 0.8em;
+  }
+
+  #button-main, #button-recepies, #button-about {
+    width: 80px;
+    height: 30px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+  }
+
+  #description {
+    width: 80%;
+    margin: 20px auto;
+    grid-template-columns: 100%;
+    text-align: center;
+  }
+
+  #vegan-box, #vega-box {
+    grid-column-start: 1;
+    text-align: center;
+  }
+
+  #pic_vega, #pic_vegan {
+    margin: 20px auto;
+  }
+
+  h3.vegan, h3.vega, p.vega, p.vegan {
+    margin: 20px auto;
+    text-align: center;
+  }
+
+  h3.vegan, h3.vega {
+    font-size: 1.2em;
+  }
+
+  #first-fourth, #second-fourth, #third-fourth {
+    grid-template-columns: 1fr;
+    text-align: left;
+  }
+
+  #first-fourth {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    padding: 10px;
+  }
+
+  #second-fourth {
+    grid-column-start:2 ;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    padding: 10px;
+   
+  }
+
+  
+
+  #fourth-fourth {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+  }
+
+  #main-nav-footer {
+    grid-column-start: 1;
+    grid-row-start: 2;
+  }
+
+  #insta-pic1, #insta-pic2, #insta-pic3, #insta-pic4, #insta-pic5, #insta-pic6 {
+    padding: 10px;
+  }
+
+  #fb, #insta {
+    width: 30px;
+    height: 30px;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    grid-column-start: 1;
+    grid-row-start: 4;
+  }
+
+  #fb {
+    background-image: url("img/facebook_icon.png");
+    margin-left: 10px;
+  }
+
+  #insta {
+    background-image: url("img/insta_icon.png");
+    margin-left: -50%;
+  }
+
+  p.purple {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    text-align: left;
+  }
+
+  #fourth-fourth {
+    margin-top: 20px;
+  }
+
+  #ingredients, #order, #advice, #mistakes {
+    margin: 10px auto;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  #sticky{
+ 
+    margin:60px 8% 60px 92%;
+   
+  }
+  #container-main {
+    background-image: url("img/vega_main_bg_mob.jpg");
+  }
+  #first-fourth {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    padding-left:5px;
+    border-bottom:solid 2px;
+    border-color: #E56859;
+    margin-bottom: 20px;
+    
+}
+#second-fourth{
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 4;
+  padding-left:0;
+  border-bottom:solid 2px;
+  border-color: #E56859;
+  margin:20px 0;
+}
+  #fourth-fourth {
+    grid-template-columns: 50% 50%;
+    grid-row-start: 2;
+    border-bottom: solid 2px;
+    border-color: #E56859;
+    
+  }
+  #main-nav-footer2 {
+    margin-top:-60px;
+    margin-bottom: 20px;
+  }
+  #insta-pic1 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+  }
+
+  #insta-pic2 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+  }
+
+  #insta-pic3 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+  }
+
+  #insta-pic4 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+  }
+
+  #insta-pic5 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+  }
+
+  #insta-pic6 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+  }
+
+  p.purple {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    margin-left: 10px;
+  }
+
+  #insta {
+    grid-row-start: 5;
+    
+  }
+
+  #fb {
+    grid-row-start: 5;
+ 
+  }
+
+  p.copyright {
+    font-size: x-small;
+    grid-row-start: 6;
+  }
+
+  .small-textbox, .small-picbox {
+    padding: 15px;
+  }
+  .small-picbox1.about {
+    height:350px;
+}
+h2.purple {
+ 
+  margin: 40px auto 10px;
+  
+}
+}
+
+@media only screen and (max-width: 420px) {
+  #sticky{
+    
+    width:20px;
+    height:20px;
+    
+   
+  }
+  #container-main {
+    background-image: url("img/vega_main_bg_mob1.jpg");
+    background-size: cover;
+  }
+
+  #button-main {
+    margin-top: 0;
+  }
+
+  .button-purple, .button-white {
+    font-size: 0.8em;
+  }
+
+  #to_do_inside {
+    grid-template-columns: 1fr;
+  }
+
+  #ingredients {
+    grid-column-start: 1;
+    padding: 30px 20px;
+  }
+
+  #order {
+    grid-column-start: 1;
+    padding: 20px;
+  }
+
+  #advice {
+    grid-column-start: 1;
+    padding: 20px;
+  }
+
+  #mistakes {
+    grid-column-start: 1;
+    padding: 20px;
+  }
+
+  h2.purple {
+    font-size: 1.6em;
+  }
+}
